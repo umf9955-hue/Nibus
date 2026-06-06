@@ -1,0 +1,48 @@
+{
+    "app": {
+        "name": "Smart Mirror",
+        "version": "1.0.0",
+        "fullscreen": true,
+        "theme": "dark"
+    },
+    "weather": {
+        "api_key": "YOUR_OPENWEATHERMAP_API_KEY",
+        "city": "New York",
+        "units": "metric",
+        "update_interval_min": 10
+    },
+    "news": {
+        "api_key": "YOUR_NEWSAPI_KEY",
+        "source": "bbc-news",
+        "update_interval_min": 30
+    },
+    "calendar": {
+        "enabled": true,
+        "max_events": 5
+    },
+    "ai": {
+        "provider": "openai",
+        "api_key": "YOUR_OPENAI_API_KEY",
+        "model": "gpt-3.5-turbo"
+    },
+    "camera": {
+        "device_id": 0,
+        "width": 640,
+        "height": 480,
+        "fps": 30,
+        "use_oakd": false
+    },
+    "gestures": {
+        "enabled": true,
+        "sensitivity": 0.7,
+        "smoothing": 0.5
+    },
+    "voice": {
+        "enabled": true,
+        "wake_word": "hey mirror",
+        "porcupine_key": ""
+    },
+    "display": {
+        "fullscreen": true
+    }
+}

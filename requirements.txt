@@ -1,0 +1,12 @@
+opencv-python
+mediapipe
+requests
+pillow
+openai
+depthai
+numpy
+PyQt6
+pyaudio
+pvporcupine
+SpeechRecognition
+pyttsx3

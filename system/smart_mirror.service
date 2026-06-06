@@ -1,0 +1,15 @@
+[Unit]
+Description=Smart Mirror Application
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/smart_mirror/main.py
+WorkingDirectory=/home/pi/smart_mirror
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+Environment=DISPLAY=:0
+
+[Install]
+WantedBy=multi-user.target
